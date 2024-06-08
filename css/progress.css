@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+    url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+    url('../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background: #000;
+    font-family: 'Playfair Display',sans-serif;
+    color: #fff;
+}
+.container{
+    width: 1125px;
+    display: block;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__logo{
+    height: 300px;
+    width: 300px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__nav__a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+}
