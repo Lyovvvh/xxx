@@ -208,7 +208,7 @@ body::after{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .header__nav__a {
@@ -224,7 +224,7 @@ body::after{
     padding: 50px;
 }
 .footer{
-    height: 300px;
+    height: 90px;
 }
 .footer__link{
     width: 100%;
